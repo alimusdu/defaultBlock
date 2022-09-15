@@ -8,7 +8,7 @@ metadata:
     nginx.ingress.kubernetes.io/default-backend: "backend"
 spec:
   rules:
-  - host: default-backend.loibis.com
+  - host: *
     http:
       paths:
       - backend:
