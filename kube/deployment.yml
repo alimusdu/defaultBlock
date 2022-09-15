@@ -18,5 +18,6 @@ spec:
         name: backend
         ports:
         - containerPort: 8080
+        imagePullPolicy: Always
       imagePullSecrets:
       - name: dockerconfigjson-github-com
